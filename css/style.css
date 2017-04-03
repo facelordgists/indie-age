@@ -1,0 +1,160 @@
+* {
+  transition: 1s all;
+  font-family: 'Cinzel', serif;
+}
+
+html {
+  font-size: 16px;
+  background: url("https://giant.gfycat.com/NarrowConcernedAmberpenshell.gif") no-repeat;
+  background-position: 68% 30%;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjMTAyYiIgc3RvcC1vcGFjaXR5PSIwLjkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZDdmZjkiIHN0b3Atb3BhY2l0eT0iMC44Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(252, 16, 43, 0.9)), color-stop(100%, rgba(237, 127, 249, 0.8)));
+  background-image: -moz-linear-gradient(top, rgba(252, 16, 43, 0.9), rgba(237, 127, 249, 0.8));
+  background-image: -webkit-linear-gradient(top, rgba(252, 16, 43, 0.9), rgba(237, 127, 249, 0.8));
+  background-image: linear-gradient(to bottom right, rgba(252, 16, 43, 0.9), rgba(237, 127, 249, 0.8));
+  background-size: 180% 180%;
+  -webkit-animation: AnimationName 6.4s ease infinite;
+  -moz-animation: AnimationName 6.4s ease infinite;
+  animation: AnimationName 6.4s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 10px;
+  line-height: 1;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+p {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+small {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.wrap {
+  margin: 3% auto 0 auto;
+  display: inline-block;
+  padding: 20px;
+}
+
+@keyframes beat {
+  to {
+    -moz-transform: rotate(45deg) scale(1.3);
+    -ms-transform: rotate(45deg) scale(1.3);
+    -webkit-transform: rotate(45deg) scale(1.3);
+    transform: rotate(45deg) scale(1.3);
+  }
+}
+.heartbeat {
+  animation: beat .5s infinite alternate;
+  font-family: sans-serif;
+  font-weight: 100;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin-bottom: 10px;
+  width: 36px;
+  height: 36px;
+  -moz-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  -webkit-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.heartbeat:after, .heartbeat:before {
+  position: absolute;
+  content: "";
+  background: #fff;
+}
+.heartbeat:before {
+  -moz-border-radius-topleft: 12px;
+  -webkit-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -moz-border-radius-bottomleft: 12px;
+  -webkit-border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  top: 12px;
+  left: 0;
+  width: 36px;
+  height: 24px;
+}
+.heartbeat:after {
+  -moz-border-radius-topleft: 12px;
+  -webkit-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -moz-border-radius-topright: 12px;
+  -webkit-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+  left: 12px;
+  width: 24px;
+  height: 12px;
+}
+
+.js .wrap {
+  opacity: 0;
+  transition: 3s all;
+}
+
+.js body.loaded .wrap {
+  opacity: 1;
+}

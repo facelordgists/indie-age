@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Time since Indie was born</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Cinzel'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="wrap">
+  <h2>Time since <br>Indie was born     <small id="birthdate"></small></h2>
+  <span class="heartbeat">Loading...</span>
+  <p id="total"></p>
+  <p id="secs"></p>
+  <p id="mins"></p>
+  <p id="hours"></p>
+  <p id="days"></p>
+  <p id="weeks"></p>
+  <p id="months"></p>
+  <p id="years"></p>
+</div>
+<script>
+   document.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementsByTagName("body")[0].className+='loaded'
+  })
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/countdown/2.6.0/countdown.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
